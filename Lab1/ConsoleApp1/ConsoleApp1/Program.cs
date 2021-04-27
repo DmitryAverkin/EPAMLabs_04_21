@@ -10,8 +10,7 @@ namespace ConsoleApp1
             Console.WriteLine("Введите размер массива:");
             x = int.Parse(Console.ReadLine());
             int[] ar = new int[x];
-            {
-                for (int i = 0; i < x; i++)
+            for (int i = 0; i < x; i++)
                 {
                     Console.WriteLine("Введите индекс массива [{0}] ", i);
                     ar[i] = int.Parse(Console.ReadLine());
@@ -42,7 +41,6 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine("ar[{0}] = {1}", i, ar[i]);
                 }
-            }
         }     
     }
 }
